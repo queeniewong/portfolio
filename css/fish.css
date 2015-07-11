@@ -1,3 +1,4 @@
+@media screen and (max-width: 2000px)  { 
 body{
 	background-color:#81D8D0;
 	margin:0;
@@ -42,7 +43,22 @@ body{
 	-webkit-animation-name: fish; /* Chrome, Safari, Opera */
 	-webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
 	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
-	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */	
+	
+	-moz-animation-name: fish; /* Chrome, Safari, Opera */
+	-moz-animation-duration: 15s; /* Chrome, Safari, Opera */
+	-moz-animation-timing-function: linear; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 1s; /* Chrome, Safari, Opera */	
+	
+	-o-animation-name: fish; /* Chrome, Safari, Opera */
+	-o-animation-duration: 15s; /* Chrome, Safari, Opera */
+	-o-animation-timing-function: linear; /* Chrome, Safari, Opera */
+	-o-animation-delay: 1s; /* Chrome, Safari, Opera */	
+	
+	-ms-animation-name: fish; /* Chrome, Safari, Opera */
+	-ms-animation-duration: 15s; /* Chrome, Safari, Opera */
+	-ms-animation-timing-function: linear; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 1s; /* Chrome, Safari, Opera */
 
 	animation-name: fish;
 	animation-duration: 15s;
@@ -61,12 +77,23 @@ body{
 	border-radius:50%;
 	opacity: 0;
 	
-
-	-webkit-animation-name: fish; /* Chrome, Safari, Opera */	
 	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
 	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
 	-webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
-	animation-name: fish;
+	
+	-moz-animation-duration: 4s; /* Chrome, Safari, Opera */
+	-moz-animation-timing-function: linear; /* Chrome, Safari, Opera */
+	-moz-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+	
+	-o-animation-duration: 4s; /* Chrome, Safari, Opera */
+	-o-animation-timing-function: linear; /* Chrome, Safari, Opera */
+	-o-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+	
+	-ms-animation-duration: 4s; /* Chrome, Safari, Opera */
+	-ms-animation-timing-function: linear; /* Chrome, Safari, Opera */
+	-ms-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+	
+	
     animation-duration: 4s;
     animation-timing-function: linear;
 	animation-fill-mode: forwards; /*bubble stop at final position*/
@@ -74,22 +101,52 @@ body{
 
 
 #bubble1{
-	animation-name: bubble1;
 	-webkit-animation-name: bubble1; /* Chrome, Safari, Opera */
 	-webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+
+	-moz-animation-name: bubble1; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 3s; /* Chrome, Safari, Opera */
+
+	-o-animation-name: bubble1; /* Chrome, Safari, Opera */
+	-o-animation-delay: 3s; /* Chrome, Safari, Opera */
+
+	-ms-animation-name: bubble1; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 3s; /* Chrome, Safari, Opera */
+
+	animation-name: bubble1;
 	animation-delay: 3s;
 }
 
 #bubble2{
 	-webkit-animation-name: bubble2; /* Chrome, Safari, Opera */
 	-webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+	
+	-moz-animation-name: bubble2; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 5s; /* Chrome, Safari, Opera */
+	
+	-o-animation-name: bubble2; /* Chrome, Safari, Opera */
+	-o-animation-delay: 5s; /* Chrome, Safari, Opera */
+	
+	-ms-animation-name: bubble2; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 5s; /* Chrome, Safari, Opera */
+	
 	animation-name: bubble2;
 	animation-delay: 5s;
 }
 
 #bubble3{
 	-webkit-animation-name: bubble3; /* Chrome, Safari, Opera */
-	-webkit-animation-delay: 7s; /* Chrome, Safari, Opera */
+	-webkit-animation-delay: 7s; /* Chrome, Safari, Opera */	
+	
+	-moz-animation-name: bubble3; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 7s; /* Chrome, Safari, Opera */	
+	
+	-o-animation-name: bubble3; /* Chrome, Safari, Opera */
+	-o-animation-delay: 7s; /* Chrome, Safari, Opera */	
+	
+	-ms-animation-name: bubble3; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 7s; /* Chrome, Safari, Opera */
+	
 	animation-name: bubble3;
 	animation-delay: 7s;
 }
@@ -109,9 +166,22 @@ body{
 	text-align:center;
 	vertical-align:middle;
 	
+	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */	
+	-webkit-animation-fill-mode: forwards;	/* Chrome, Safari, Opera */		
+	
+	-moz-animation-duration: 4s; /* Chrome, Safari, Opera */	
+	-moz-animation-fill-mode: forwards;	/* Chrome, Safari, Opera */		
+	
+	-o-animation-duration: 4s; /* Chrome, Safari, Opera */	
+	-o-animation-fill-mode: forwards;	/* Chrome, Safari, Opera */		
+	
+	-ms-animation-duration: 4s; /* Chrome, Safari, Opera */	
+	-ms-animation-fill-mode: forwards;	/* Chrome, Safari, Opera */	
+	
+    animation-duration: 4s;	
 	animation-fill-mode: forwards; /*bubble stop at final position*/
-	-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    animation-duration: 4s;
+
+
 
 }
 a.bubbleText{
@@ -123,6 +193,16 @@ a.bubbleText{
 #text1{
 	-webkit-animation-name: text1; /* Chrome, Safari, Opera */
 	-webkit-animation-delay: 7s; /* Chrome, Safari, Opera */
+	
+	-moz-animation-name: text1; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 7s; /* Chrome, Safari, Opera */
+	
+	-o-animation-name: text1; /* Chrome, Safari, Opera */
+	-o-animation-delay: 7s; /* Chrome, Safari, Opera */
+	
+	-ms-animation-name: text1; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 7s; /* Chrome, Safari, Opera */
+	
 	animation-name: text1;
 	animation-delay: 7s;
 
@@ -131,6 +211,16 @@ a.bubbleText{
 #text2{
 	-webkit-animation-name: text2; /* Chrome, Safari, Opera */
 	-webkit-animation-delay: 9s; /* Chrome, Safari, Opera */
+	
+	-moz-animation-name: text2; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 9s; /* Chrome, Safari, Opera */
+	
+	-o-animation-name: text2; /* Chrome, Safari, Opera */
+	-o-animation-delay: 9s; /* Chrome, Safari, Opera */
+	
+	-ms-animation-name: text2; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 9s; /* Chrome, Safari, Opera */
+	
 	animation-name: text2;
 	animation-delay: 9s;
 }
@@ -138,6 +228,16 @@ a.bubbleText{
 #text3{
 	-webkit-animation-name: text3; /* Chrome, Safari, Opera */
 	-webkit-animation-delay: 11s; /* Chrome, Safari, Opera */
+	
+	-moz-animation-name: text3; /* Chrome, Safari, Opera */
+	-moz-animation-delay: 11s; /* Chrome, Safari, Opera */
+	
+	-o-animation-name: text3; /* Chrome, Safari, Opera */
+	-o-animation-delay: 11s; /* Chrome, Safari, Opera */
+	
+	-ms-animation-name: text3; /* Chrome, Safari, Opera */
+	-ms-animation-delay: 11s; /* Chrome, Safari, Opera */
+	
 	animation-name: text3;
 	animation-delay: 11s;
 
@@ -146,11 +246,11 @@ a.bubbleText{
 /*Bubble Animation*/
 /* Chrome, Safari, Opera */
 @-webkit-keyframes bubble1{
-    0%   {right:300px; top:250px;}
-    25%  {width:25px; height: 25px; right:250px; top:200px;}
-    50%  {width:50px; height: 50px; right:200px; top:150px;}
-    75%  {width:75px; height: 75px; right:150px; top:100px;}
-    100% {width:100px; height: 100px; right:100px; top:50px;}
+    0%   {right:310px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:190px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:160px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:130px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:100px; top:20px;	opacity: 1;}
 }
 
 @keyframes bubble1{
@@ -252,4 +352,202 @@ a.bubbleText{
 	font-size: 110%;
 	top: 25px;
 	text-shadow:2px 2px 5px white;
+}
+}
+
+/*Tablet screen in portrait*/
+@media screen and (min-width:  768px) and (max-width: 1023px)  { 
+#name {
+	top: 150px;
+	height: 20%;
+	font-size: 60px;
+}
+/*Bubble Animation*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bubble1{
+    0%   {right:310px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:160px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:115px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:70px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:25px; top:35px;	opacity: 1;}
+}
+
+@keyframes bubble1{
+    0%   {right:310px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:160px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:115px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:70px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:25px; top:35px;	opacity: 1;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-@keyframes bubble2{
+    0%   {right:410px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:260px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:215px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:170px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:125px; top:35px;	opacity: 1;}
+}
+@keyframes bubble2{
+    0%   {right:410px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:260px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:215px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:170px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:125px; top:35px;	opacity: 1;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-@keyframes bubble3{
+    0%   {right:510px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:360px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:315px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:270px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:225px; top:35px;	opacity: 1;}
+}
+@keyframes bubble3{
+    0%   {right:510px; top:140px;	opacity: 1;}
+    25%   {width:25px; height: 25px; right:360px; top:110px;	opacity: 1;}
+    50%   {width:40px; height: 40px; right:315px; top:80px;	opacity: 1;}
+    75%   {width:55px; height: 55px; right:270px; top:50px;	opacity: 1;}
+    100% {width:70px; height: 70px; right:225px; top:35px;	opacity: 1;}
+}
+
+}
+/**********************************************************************************************/
+/*Mobile screen in portrait and landscape*/
+@media screen and (min-width:  421px) and (max-width: 767px) { 
+#name {
+	top: 30px;
+	font-size: 40px;
+}
+#fish img{
+	-webkit-animation: none ;
+	-moz-animation: none ;
+	-o-animation: none ;
+	-ms-animation: none ;
+	animation: none ;	
+}
+
+/*bubbles*/
+.bubble, .bubbleText{
+	opacity:0;
+	
+	-webkit-animation-duration: 0; /* Chrome, Safari, Opera */	
+	-moz-animation-duration: 0; /* Chrome, Safari, Opera */	
+	-o-animation-duration: 0; /* Chrome, Safari, Opera */
+	-ms-animation-duration: 0; /* Chrome, Safari, Opera */
+    animation-duration: 0;
+}
+
+#name,.bubble,.bubbleText,
+#bubble1,#text1 , 
+#bubble2,#text2 , 
+#bubble3,#text3 {
+	-webkit-animation-delay: initial; /* Chrome, Safari, Opera */
+	-moz-animation-delay: initial; /* Chrome, Safari, Opera */
+	-o-animation-delay: initial; /* Chrome, Safari, Opera */
+	-ms-animation-delay: initial; /* Chrome, Safari, Opera */
+	animation-delay: initial;
+}
+
+/*Bubble Animation*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bubble1{
+    0%   {width:70px; height: 70px; right:100px; top:35px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:100px; top:35px;	opacity: 1;}
+}
+
+@keyframes bubble1{
+    0%   {width:70px; height: 70px; right:100px; top:180px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:100px; top:180px;	opacity: 1;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-@keyframes bubble2{
+    0%   {width:70px; height: 70px; right:200px; top:180px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:200px; top:180px;	opacity: 1;}
+}
+@keyframes bubble2{
+    0%    {width:70px; height: 70px; right:200px; top:180px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:200px; top:180px;	opacity: 1;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-@keyframes bubble3{
+    0%   {width:70px; height: 70px; right:300px; top:180px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:300px; top:180px;	opacity: 1;}
+}
+@keyframes bubble3{
+    0%   {width:70px; height: 70px; right:300px; top:180px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:300px; top:180px;	opacity: 1;}
+}
+
+/*Animation for name*/
+@-webkit-@keyframes name{
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes name{
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+}
+/******************************************************************************************************/
+/*Mobile in portrait*/
+@media screen and (max-width: 420px)  { 
+#fish img{
+	-webkit-animation: none ;
+	-moz-animation: none ;
+	-o-animation: none ;
+	-ms-animation: none ;
+	animation: none ;	
+}
+
+
+#name,.bubble,.bubbleText,
+#bubble1,#text1 , 
+#bubble2,#text2 , 
+#bubble3,#text3 {
+	-webkit-animation-delay: initial; /* Chrome, Safari, Opera */
+	-moz-animation-delay: initial; /* Chrome, Safari, Opera */
+	-o-animation-delay: initial; /* Chrome, Safari, Opera */
+	-ms-animation-delay: initial; /* Chrome, Safari, Opera */
+	animation-delay: initial;
+}
+
+#name {
+	top: 130px;
+	font-size: 25px;
+}
+/*Bubble Animation*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bubble1{
+    0%   {width:70px; height: 70px; right:20px; top:250px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:20px; top:250px;	opacity: 1;}
+}
+
+@keyframes bubble1{
+    0%   {width:70px; height: 70px; right:20px; top:250px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:20px; top:250px;	opacity: 1;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-@keyframes bubble2{
+    0%   {width:70px; height: 70px; right:120px; top:250px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:120px; top:250px;	opacity: 1;}
+}
+@keyframes bubble2{
+    0%    {width:70px; height: 70px; right:120px; top:250px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:120px; top:250px;	opacity: 1;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-@keyframes bubble3{
+    0%   {width:70px; height: 70px; right:220px; top:250px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:220px; top:250px;	opacity: 1;}
+}
+@keyframes bubble3{
+    0%   {width:70px; height: 70px; right:220px; top:250px;	opacity: 0;}
+    100% {width:70px; height: 70px; right:220px; top:250px;	opacity: 1;}
+}
 }
