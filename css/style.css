@@ -1,0 +1,347 @@
+body{
+	margin:0;
+	padding:0;
+	position:relative;
+
+}
+
+#header{
+	position:relative;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 140px;
+	background-color:#81D8D0;
+
+}
+
+#name{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	margin:0;
+	padding:0;
+}
+#name a{
+	position: relative;
+	font-size: 70px;
+	color: #fff;
+	text-shadow: 5px 5px 7px #68AFA8;
+	font-family: 'Sacramento', cursive;
+	text-decoration: none;
+}
+#name p{
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	margin:0;
+	font-size: 17px;
+	color: #67ADA6;
+	text-shadow: 2px 2px 5px #68AFA8;
+	font-family: 'Salsa', cursive;
+}
+
+a.bubbleText{
+	position: absolute;
+	display: block;
+
+	padding:25px 0;
+	margin:0;
+	width: 70px;
+	height: 20px;
+	border: 2px #fff solid;
+	border-radius:50%;
+	
+	color: white;
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Salsa', cursive;
+	text-decoration:none;
+	text-shadow: 2px 2px 5px #68AFA8;
+}
+
+a#bubble1{right:100px; top: 35px;}
+a#bubble2{right:200px; top: 35px;}
+a#bubble3{right:300px; top: 35px;}
+
+a.current{	
+	color: #67ADA6;
+	border-color:#67ADA6;
+	font-size: 110%;
+	text-shadow:2px 2px 5px white;
+}
+
+.bubbleText:hover {
+	border: 2px #67ADA6 dashed;
+	color: #67ADA6;
+	font-size: 110%;
+	top: 25px;
+	text-shadow:2px 2px 5px white;
+}
+/***************************************************************************************************/
+/*BEGIN : Work Page - Projects list*/
+#contentWrapper{
+		width: 80%;
+		margin: 10px auto;
+		padding:10px;
+}
+
+dl#workList{
+	padding:0;
+	margin: 0 auto;
+}
+
+dl#workList dd{
+	position:relative;
+	margin: 10px;
+	padding:0;
+	float:left;
+	}
+
+.workTitle{
+	font-family: 'Bubblegum Sans', cursive;
+	color: #437c76;
+	padding-left: 20px;
+	font-size: 50px;
+}
+
+dl#workList dt, .imgdd{clear:left;}
+.imgdd{width: 600px;}
+.descriptiondd{width: 400px;}
+.descriptiondd p{	
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	color: #437c76;
+		font-family: 'Viga', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+}
+
+.descriptiondd span{color: #81D8D0;}
+
+.descriptiondd p a{	
+	color: #437c76;
+	text-decoration:none;
+}
+.descriptiondd p a:hover{	color: #81D8D0;}
+#workimg{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height:100%;
+	border-radius: 10px;
+	box-shadow:2px 2px 5px #000;
+}
+/*
+.detail{
+	position:absolute;
+	top:0;
+	width: 100%;
+	height:98%;
+	padding: 0;	
+	margin:0;
+	opacity:0;
+	border-radius: 10px;
+	background-color: rgb(0,0,0);
+}
+
+.detail p, .detail h3{
+	color: #fff;
+	text-align: center;
+	margin:0;
+	padding: 5px;
+}
+.detail h3{padding-top: 15%;}
+
+.detail:hover{
+	opacity: .8;
+	-webkit-transition-timing-function: linear;
+	-webkit-transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-duration: 1s;
+}*/
+/*END : Work Page - Projects list*/
+
+p#morecoming{
+	padding: 20px 10px 0 10px;
+	margin:0;
+	width: 100%;
+	float:left;
+	clear:left;
+	
+	font-family: 'Salsa', cursive;
+    font-style: italic;
+	color: #67ADA6;
+	font-size: 22px;
+	text-align: right;
+}
+
+/**********************************************************************/
+/*BEGIN : About page*/
+#about{
+	margin: 0 auto;
+	padding:10px;
+	width: 80%;
+}
+
+#about div{
+	margin: 10px;
+	padding: 10px;
+	width: 45%;
+	float:left;
+}
+#aboutimg{
+	margin: 0;
+	width: 400px;
+	height:400px;
+	border-radius: 50%;
+	border: medium #81D8D0 solid;
+}
+
+#aboutme{
+	font-size: 18px;
+	color: #437c76;
+	font-family: 'Viga', sans-serif;
+}
+#firstline{
+	color: #81D8D0;
+	font-size: 30px;
+	text-align:right;
+}
+
+#aboutme dd{
+	display: list-item;
+    list-style-type:circle;}
+	
+a#cv, input[type="button"]{
+	display:block;	
+	padding: 25px 0;
+	float:right;
+	width: 100px;
+	height: 50px;
+	border-radius:50%;
+	background-color: #67ADA6;
+	
+	text-align:center;
+
+	color: #fff;
+	text-decoration:none;
+}
+
+a#cv:hover, input[type="button"]:hover{background-color:#81D8D0; color: #437c76;}
+
+/*END : About page*/
+/**********************************************************************/
+
+/*BEGIN: Contact Page*/
+div#contactWrapper{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+form{
+	float: left;
+	width: 60%;
+	margin: 10px;
+	padding:70px 10px;
+}
+fieldset{
+	margin:0 auto;
+	padding:10px;
+	border: none;
+	
+}
+legend{
+	font-family: 'Viga', sans-serif;
+	font-size: 140%;
+	color: #437c76;
+}
+
+input[type="text"], textarea{
+	width:90%;
+	margin: 5px auto;
+	padding: 10px;
+	font-family: 'Viga', sans-serif;
+	color: #437c76;
+	border-radius: 10px;
+	border: thin #437c76 solid;
+}
+
+input[type="button"]{
+	width: 70px;
+	height: 70px;
+	margin-top: 10px;
+	margin-right: 40px;
+	padding: 0;
+	float: right;
+	border: none;
+	
+	font-family: 'Viga', sans-serif;
+	font-size: 16px;
+}
+
+input:focus, textarea:focus{
+   outline:none;
+  }
+  
+#othercontact{
+	float: left;
+	width: 32%;
+	margin: 10px;
+	padding:70px 10px;
+	
+	font-family: 'Viga', sans-serif;
+	color: #437c76;
+	font-size: 20px;
+}
+#othercontact dt{color: #81D8D0;}
+
+#github img{
+	width: 80px;
+	height: 80px;	
+}
+
+a#email{
+	font-size: 16px;
+	text-decoration: none;
+	color: #67ADA6;
+}
+a#email:hover{color:#81D8D0;}
+
+#email img{
+	padding:0;
+	margin:10px;
+	border-radius: 50%;	
+	width: 65px;
+	height: 65px;
+	}
+	
+dd{
+	position:relative;
+}
+#email p{
+	position:absolute;
+	top:32px;
+	left:85px;
+	
+	padding:0;
+	margin:0;
+}
+
+/*END: Contact Page*/
+
+/*footer*/
+#footer{
+	float:left;
+	clear:left;
+	width:100%;
+	padding:0;
+	padding-top: 2%;
+	margin:0;
+	text-align: center;
+	font-size: 80%;
+	color: #67ADA6;
+	font-family: 'Salsa', cursive;
+}
+#footer p{margin:0; padding: 2% 0;}
