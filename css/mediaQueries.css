@@ -1,0 +1,111 @@
+/*Mobile screen in portrait and landscape*/
+@media screen and (max-width: 767px)  { 
+/*BEGIN:header and navigation bar*/
+	#header{height: 220px;}
+	
+	a#bubble1{right:20px; top: 130px;}
+	a#bubble2{right:120px; top: 130px;}
+	a#bubble3{right:220px; top: 130px;}
+
+/*END:header and navigation bar*/
+
+
+/*BEGIN: About page*/
+	div#about div, #aboutme{border:thin red solid;}
+	div#about,div#about div, div#contactWrapper, div#contentWrapper{
+		width:100%;
+		margin:0;
+		padding:0;
+		padding-top:10px;
+	}
+	div#about{width:90%; text-align:center;  margin:0 auto;}
+	#aboutimg{width: 300px; height:300px;}
+	div#aboutme dl{text-align:left;}
+/*END: About page*/
+
+/*BEGIN: Work Page*/
+	.imgdd{width: 100%; margin: 0; }
+	dl#workList dd{
+	width: 100%;
+	margin: 0;
+	padding:0;
+	}
+	.workimg{	box-shadow:none;}
+	p#morecoming{padding: 0; margin-right: 10px;}
+/*END: Work Page*/
+
+/*BEGIN: Contact page*/
+	form,  #othercontact{
+		width: 100%; 
+		margin:0;
+		padding:0;	
+	}
+	div#othercontact dd{float:left;}
+	div#othercontact dt{margin-left:10px;}
+	#email p{display: none;}
+/*END: Contact page*/
+}
+
+@media screen and (max-width: 420px)  { 
+/*BEGIN:header and navigation bar*/
+	#header{height: 180px;}
+	#name a{	font-size: 45px;}
+	#name p{	font-size: 14px;}
+	a#bubble1{right:20px; top: 100px;}
+	a#bubble2{right:120px; top: 100px;}
+	a#bubble3{right:220px; top: 100px;}
+
+/*END:header and navigation bar*/
+
+/*BEGIN: About page*/
+	div#about div, #aboutme{border:thin red solid;}
+	#aboutimg{width: 250px; height:250px;}
+/*END: About page*/
+
+/*BEGIN: Work Page*/
+.workTitle{font-size:30px;}
+/*END: Work Page*/
+
+}	
+
+/*Tablet screen in portrait*/
+@media screen and (min-width:  768px) and (max-width: 1023px)  { 
+/*BEGIN: About page*/
+	a#bubble1{right:25px; top: 35px;}
+	a#bubble2{right:125px; top: 35px;}
+	a#bubble3{right:225px; top: 35px;}
+
+	#about div{
+		float:none; 
+		margin: 0 auto;
+		width: 400px;
+		text-align:center;
+	}
+	#aboutme dl{text-align:left;}
+/*END: About page*/
+
+/*BEGIN:Contact Page*/
+	div#contactWrapper{width: 100%;}
+	form{margin-left:5px;}
+	#othercontact{
+		width:30%; 
+		margin: 10px 0 0 0; 
+		padding: 70px 0;
+		text-align: center;
+	}
+	#email p{display: none;}
+	
+/*END:Contact Page*/
+ }
+
+/*Tablet screen in landscape*/
+@media screen and (min-width:  1024px) and (max-width: 1300px)  {
+	div#contactWrapper,div#about{width: 100%;}
+	div#contentWrapper{width: 95%; padding:0; margin:0 auto;}
+	.imgdd{width: 500px; }
+	#othercontact{
+		width:30%; 
+		margin: 10px 0 0 0; 
+		padding: 70px 0;
+	}
+}

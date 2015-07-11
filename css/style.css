@@ -124,7 +124,7 @@ dl#workList dt, .imgdd{clear:left;}
 	text-decoration:none;
 }
 .descriptiondd p a:hover{	color: #81D8D0;}
-#workimg{
+.workimg{
 	margin:0;
 	padding:0;
 	width: 100%;
