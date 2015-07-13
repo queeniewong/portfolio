@@ -235,11 +235,19 @@ a#cv:hover, input[type="button"]:hover{background-color:#81D8D0; color: #437c76;
 
 /*BEGIN: Contact Page*/
 div#contactWrapper{
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 	padding: 0;
 }
 
+#contactimg{float:left;
+	margin: 10px;
+	width: 400px;
+	height:400px;
+	border-radius: 50%;
+	border: medium #81D8D0 solid;
+}
+/* Hide the contact for this stage
 form{
 	float: left;
 	width: 60%;
@@ -284,7 +292,8 @@ input[type="button"]{
 input:focus, textarea:focus{
    outline:none;
   }
-  
+ */
+ 
 #othercontact{
 	float: left;
 	width: 32%;

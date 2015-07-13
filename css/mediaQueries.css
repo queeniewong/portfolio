@@ -34,7 +34,8 @@
 /*END: Work Page*/
 
 /*BEGIN: Contact page*/
-	form,  #othercontact{
+	/*form,*/
+	#othercontact{
 		width: 100%; 
 		margin:0;
 		padding:0;	
@@ -42,6 +43,9 @@
 	div#othercontact dd{float:left;}
 	div#othercontact dt{margin-left:10px;}
 	#email p{display: none;}
+	
+	#contactimgdiv{width:300px;  margin:0 auto;}
+	#contactimg{width: 300px; height:300px; margin:0 auto; }
 /*END: Contact page*/
 }
 
@@ -64,6 +68,10 @@
 .workTitle{font-size:30px;}
 /*END: Work Page*/
 
+/*BEGIN: Contact page*/
+	#contactimgdiv{width:200px;  margin:0 auto;}
+	#contactimg{width: 200px; height:200px; margin:0 auto; }
+/*END: Contact page*/
 }	
 
 /*Tablet screen in portrait*/
@@ -83,7 +91,7 @@
 /*END: About page*/
 
 /*BEGIN:Contact Page*/
-	div#contactWrapper{width: 100%;}
+	div#contactWrapper{width: 80%;}
 	form{margin-left:5px;}
 	#othercontact{
 		width:30%; 
@@ -98,7 +106,7 @@
 
 /*Tablet screen in landscape*/
 @media screen and (min-width:  1024px) and (max-width: 1300px)  {
-	div#contactWrapper,div#about{width: 100%;}
+	div#contactWrapper,div#about{width: 80%;}
 	div#contentWrapper{width: 95%; padding:0; margin:0 auto;}
 	.imgdd{width: 500px; }
 	#othercontact{
