@@ -101,8 +101,10 @@ dl#workList dd{
 .workTitle{
 	font-family: 'Bubblegum Sans', cursive;
 	color: #437c76;
-	padding-left: 20px;
 	font-size: 50px;
+	padding-bottom:0;
+	margin-bottom:0;
+	text-align:right;
 }
 
 dl#workList dt, .imgdd{clear:left;}
@@ -129,8 +131,9 @@ dl#workList dt, .imgdd{clear:left;}
 	padding:0;
 	width: 100%;
 	height:100%;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow:2px 2px 5px #000;
+	margin-bottom: 10px;
 }
 /*
 .detail{
